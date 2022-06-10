@@ -1,0 +1,11 @@
+{
+  "EnableInGameTime-Timer": false,
+  "EnableRealTime-Timer": false,
+  "EnableTimerOnce": true,
+  "EnableTimerRepeat": false,
+
+  "TimerOnce": {
+    "spawn.fill_groups 'msg'": 0,
+    "reset.timeronce": 600
+  }
+}
