@@ -4,12 +4,12 @@ const axios = require('axios');
 const client = new Revolt.Client();
 
 client.login({
-  email: 'deric1024@gmail.com',
-  password: 'Deric06521024'
+  email: '',
+  password: ''
 });
 
 const gifUrl = 'https://api.giphy.com/v1/gifs/search';
-const apiKey = 'l3Uw1D25JB4j1NbIbbuCOcof4GiThQ3c';
+const apiKey = '';
 
 client.on('slashCommand', async (command) => {
   if (command.name === 'gif') {
